@@ -10,4 +10,5 @@ Vandaag hebben we laten weten dat de Samen Zoeken App in ontwikkeling is. Erg bl
 - [Nieuwsblad: Neef van overleden Emilia (75) ontwikkelt “vanuit frustratie” app om samen te zoeken naar vermiste personen](https://www.nieuwsblad.be/cnt/dmf20230309_95582875)
 - [Omroep Brabant: Dementerende vrouw pas na een week gevonden, daarom maakt haar neef een app](https://www.omroepbrabant.nl/nieuws/4243236/dementerende-vrouw-pas-na-een-week-gevonden-daarom-maakt-haar-neef-een-app)
 - [Tv Limburg: Neef Emilietta Chini ontwikkelt app om vrijwilligers tijdens zoektocht te helpen](https://www.tvl.be/nieuws/neef-emilietta-chini-ontwikkelt-app-om-vrijwilligers-tijdens-zoektocht-te-helpen-150702)
+- [Brussels Times: After disappearance of Emilia Chini, nephew launches app allowing groups to search together](https://www.brusselstimes.com/belgium/399751/after-disappearance-of-emilia-chini-75-nephew-launches-app-allowing-groups-to-search-together)
 
