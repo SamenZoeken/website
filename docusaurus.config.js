@@ -71,7 +71,7 @@ const config = {
         title: 'Samen Zoeken',
         logo: {
           alt: 'Logo Samenzoeken',
-          src: 'img/logo-samenzoeken.png',
+          src: 'img/logo.png',
         },
         items: [
           {

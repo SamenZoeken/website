@@ -11,7 +11,9 @@
 
 :root {
   --ifm-font-family-base: 'Montserrat';
-
+  --ifm-navbar-background-color: #66BF8A;
+  --ifm-navbar-link-hover-color: #08314B;
+  
   --ifm-color-primary: #66BF8A;
   --ifm-color-primary-dark: #24708f;
   --ifm-color-primary-darker: #154b7b;
