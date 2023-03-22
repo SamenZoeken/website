@@ -1,7 +1,7 @@
 ---
 slug: samenzoeken-app-idee
 title: Samen Zoeken Idee
-authors: [chinim]
+authors: [chinim, chinib]
 tags: [app idee, frustratie]
 ---
 
