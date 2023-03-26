@@ -90,7 +90,7 @@ const config = {
             position: 'left',
             label: 'Uitleg',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Nieuws', position: 'left'},
           {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: 'GitHub',
