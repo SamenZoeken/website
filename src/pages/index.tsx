@@ -14,13 +14,92 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <p className={styles.pageDescription}>
+            Na de verdwijning van
+            <a
+              href="https://www.vrt.be/vrtnws/nl/2023/02/28/lichaam-gevonden/"
+              target="_blank"
+              > Emilietta Chini </a>
+            lijdend aan dementie, ging haar familie massaal naar haar op zoek,
+            geholpen door honderden vrijwilligers.
+          </p>
+          <p className={styles.pageDescription}>
+            Al snel werd duidelijk dat het erg moeilijk is om met zo een grote
+            groep gecoördineerd te zoeken. Wie is waar al gaan kijken? Hoe
+            grondig is er al gezocht, en in welk gebied?
+          </p>
+          <p className={styles.pageDescription}>
+            Met de 'Samen zoeken' app, kunnen groepen mensen elkaars stappen
+            precies nagaan. De app is in ontwikkeling en is binnenkort
+            beschikbaar.
+          </p>
+          <div>
+            <div id="mc_embed_signup">
+              <form
+                action="https://app.us13.list-manage.com/subscribe/post?u=346fc09adb62d5c844ba952a1&amp;id=0f46ccde90&amp;f_id=0028e6e2f0"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                className="validate"
+                target="_self"
+              >
+                <div id="mc_embed_signup_scroll">
+                  <div className="mc-field-group">
+                    <label htmlFor="mce-EMAIL">E-mailadres </label>
+                    <input
+                      type="email"
+                      value=""
+                      name="EMAIL"
+                      className="required email"
+                      id="mce-EMAIL"
+                      required
+                    />
+                    <span id="mce-EMAIL-HELPERTEXT" className="helper_text"></span>
+                  </div>
+                  <div id="mce-responses" className="clear foot">
+                    <div
+                      className="response hide"
+                      id="mce-error-response"
+                    ></div>
+                    <div
+                      className="response hide"
+                      id="mce-success-response"
+                    ></div>
+                  </div>
+                  <div
+                    className='outOfScreen'
+                    aria-hidden="true"
+                  >
+                    <input
+                      type="text"
+                      name="b_346fc09adb62d5c844ba952a1_0f46ccde90"
+                      tabIndex='-1'
+                      value=""
+                    />
+                  </div>
+                  <div className="optionalParent">
+                    <div className="clear foot">
+                      <input
+                        type="submit"
+                        value="Hou me op de hoogte"
+                        name="subscribe"
+                        id="mc-embedded-subscribe"
+                        className="button button--secondary button--lg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+       {/*  <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
             Docusaurus Tutorial - 5min ⏱️
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );
@@ -30,11 +109,11 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/*<HomepageFeatures />*/}
       </main>
     </Layout>
   );

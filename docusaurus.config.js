@@ -102,16 +102,49 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: "App",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Hoe werkt het',
+                to: '/docs/app/how',
+              },
+              {
+                label: 'Kaarten',
+                to: '/docs/app/maps'
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Nieuws",
+            items: [
+              {
+                label: 'Samenzoeken Idee',
+                to: '/blog/samenzoeken-app-idee',
+              },
+              {
+                label: 'Eerste test resultaten',
+                to: '/blog/first-test',
+              },
+            ],
+          },
+          {
+            title: "Stichting",
+            items: [
+              {
+                label: 'Missie',
+                to: '/docs/stichting/missie',
+              }, 
+              {
+                label: 'Doneer',
+                to: '/docs/stichting/doneer',
+              },
+            ],
+          },
+         /* {
             items: [
               {
                 label: 'Stack Overflow',
@@ -126,22 +159,31 @@ const config = {
                 href: 'https://twitter.com/docusaurus',
               },
             ],
-          },
-          {
-            title: 'More',
+          },*/
+          /*{
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              
               {
                 label: 'GitHub',
                 href:`https://github.com/${organizationName}/${projectName}`,
               },
             ],
-          },
+          },*/
+          {
+            title: "Stichting Samen Zoeken",
+            items: [
+              {
+                label: "ben@samenzoeken.app",
+                to: "ben@samenzoeken.app"
+              },
+              {
+                label: "Pers",
+                to: "blog/announcement"
+              }
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Samen Zoeken Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Samen Zoeken.`,
       },
       prism: {
         theme: lightCodeTheme,

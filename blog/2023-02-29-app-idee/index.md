@@ -10,7 +10,7 @@ Ben. &quot;Maar zij zeiden dat ik niet onmiddellijk iets kon doen, en ze suggere
 hun niet voor de voeten moest lopen.&quot;
 
 Toen Emilietta, die leed aan dementie, op woensdagavond 22 februari verdween aan haar
-huis zette de lokale en federale politie, alsook de Cel Vermiste Personen, onmiddellijk een
+woning in Maasmechelen zette de lokale en federale politie, alsook de Cel Vermiste Personen, onmiddellijk een
 grote zoekactie op. 
 
 Naast familie, daagden er zoveel vrijwilligers op die spontaan hun hulp aanboden om te
