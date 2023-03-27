@@ -174,7 +174,7 @@ const config = {
             items: [
               {
                 label: "ben@samenzoeken.app",
-                to: "ben@samenzoeken.app"
+                to: "mailto:ben@samenzoeken.app"
               },
               {
                 label: "Pers",
