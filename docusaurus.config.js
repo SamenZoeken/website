@@ -179,6 +179,10 @@ const config = {
               {
                 label: "Pers",
                 to: "blog/announcement"
+              },
+              {
+                label: "Privacy Statement",
+                to: "privacy"
               }
             ]
           }
