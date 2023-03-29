@@ -32,20 +32,16 @@
   justify-content: center;
 }
 
-.hide {
-  display: none;
-}
-
 .outOfScreen {
   position: absolute; left: -5000px
 }
 
-a {
+.pageDescription a {
   color: #08314b;
   font-weight: 500;
 }
 
-a:hover {
+.pageDescription a:hover {
   color: #08314b;
   font-weight: 500;
 }

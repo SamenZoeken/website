@@ -47,6 +47,7 @@ function HomepageHeader() {
                   <div className="mc-field-group">
                     <label htmlFor="mce-EMAIL">E-mailadres </label>
                     <input
+                    style={{color: 'black'}}
                       type="email"
                       value=""
                       name="EMAIL"
@@ -58,16 +59,18 @@ function HomepageHeader() {
                   </div>
                   <div id="mce-responses" className="clear foot">
                     <div
-                      className="response hide"
+                      style={{ display: 'none' }}
+                      className="response"
                       id="mce-error-response"
                     ></div>
                     <div
-                      className="response hide"
+                      style={{ display: 'none' }}
+                      className="response"
                       id="mce-success-response"
                     ></div>
                   </div>
                   <div
-                    className='outOfScreen'
+                    className={styles.outOfScreen}
                     aria-hidden="true"
                   >
                     <input
@@ -84,7 +87,7 @@ function HomepageHeader() {
                         value="Hou me op de hoogte"
                         name="subscribe"
                         id="mc-embedded-subscribe"
-                        className="button button--secondary button--lg"
+                        className="button button--secondary"
                       />
                     </div>
                   </div>
