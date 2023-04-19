@@ -132,6 +132,10 @@ const config = {
                 label: 'Eerste test resultaten',
                 to: '/blog/first-test',
               },
+              {
+                label: 'Stichting Opgericht',
+                to: '/blog/oprichting-stichting',
+              },
             ],
           },
           {
