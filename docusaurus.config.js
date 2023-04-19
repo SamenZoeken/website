@@ -116,8 +116,8 @@ const config = {
                 to: '/docs/maps'
               },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'FAQ',
+                to: '/faq',
               },
             ],
           },
