@@ -106,11 +106,11 @@ const config = {
             items: [
               {
                 label: 'Hoe werkt het',
-                to: '/docs/app/how',
+                to: '/docs/how',
               },
               {
                 label: 'Kaarten',
-                to: '/docs/app/maps'
+                to: '/docs/maps'
               },
               {
                 label: 'Blog',
@@ -136,11 +136,11 @@ const config = {
             items: [
               {
                 label: 'Missie',
-                to: '/docs/stichting/missie',
+                to: '/docs/missie',
               }, 
               {
                 label: 'Doneer',
-                to: '/docs/stichting/doneer',
+                to: '/docs/doneer',
               },
             ],
           },
