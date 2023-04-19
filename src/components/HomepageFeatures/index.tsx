@@ -10,6 +10,33 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
+    title: 'Gemeenschappelijke kaart',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+      Na het openen van de app zie je de gemeenschappelijke kaart, met alle routes die al gelopen zijn. 
+      </>
+    )
+  },
+  {
+    title: 'Route Delen',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+      Vanuit de app kun je eenvoudig je route opnemen en realtime delen.
+      </>
+    )
+  },
+  {
+    title: 'Professionele kaarten',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+      Professionele stafkaarten, die instanties ook gebruiken, die normaal niet gratis te verkrijgen is.
+      </>
+    )
+  },
+ /*  {
     title: 'Easy to Use',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
@@ -38,7 +65,7 @@ const FeatureList: FeatureItem[] = [
         be extended while reusing the same header and footer.
       </>
     ),
-  },
+  }, */
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {
