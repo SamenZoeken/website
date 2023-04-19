@@ -84,18 +84,21 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          {
+          /*{
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Uitleg',
-          },
+          },*/
+          {to: '/docs/how', label: 'Hoe werkt het', position: 'left'},
           {to: '/blog', label: 'Nieuws', position: 'left'},
-          {
+          {to: '/docs/stichting', label: 'Stichting', position: 'left'},
+          {to: '/docs/doneer', label: 'Doneer', position: 'right'},
+          /*{
             href: `https://github.com/${organizationName}/${projectName}`,
             label: 'GitHub',
             position: 'right',
-          },
+          },*/
         ],
       },
       footer: {
@@ -136,7 +139,7 @@ const config = {
             items: [
               {
                 label: 'Missie',
-                to: '/docs/missie',
+                to: '/docs/stichting',
               }, 
               {
                 label: 'Doneer',
