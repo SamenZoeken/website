@@ -142,6 +142,10 @@ const config = {
                 to: '/docs/stichting',
               }, 
               {
+                label: 'Vrijwilligers',
+                to: '/docs/vrijwilligers',
+              },
+              {
                 label: 'Doneer',
                 to: '/docs/doneer',
               },
