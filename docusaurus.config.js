@@ -184,12 +184,11 @@ const config = {
             title: "Stichting Samen Zoeken",
             items: [
               {
-                label: "ben@samenzoeken.app",
-                to: "mailto:ben@samenzoeken.app"
+                html: "KVK 89960629"
               },
               {
-                label: "Pers",
-                to: "blog/announcement"
+                label: "ben@samenzoeken.app",
+                to: "mailto:ben@samenzoeken.app"
               },
               {
                 label: "Privacy Statement",
