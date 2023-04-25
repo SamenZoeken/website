@@ -47,9 +47,8 @@ function HomepageHeader() {
                   <div className="mc-field-group">
                     <label htmlFor="mce-EMAIL">E-mailadres </label>
                     <input
-                    style={{color: 'black'}}
+                      style={{color: 'black'}}
                       type="email"
-                      value=""
                       name="EMAIL"
                       className="required email"
                       id="mce-EMAIL"
