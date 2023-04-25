@@ -81,6 +81,7 @@ function HomepageHeader() {
                   </div>
                   <div className="optionalParent">
                     <div className="clear foot">
+                      <br></br>
                       <input
                         type="submit"
                         value="Hou me op de hoogte"
