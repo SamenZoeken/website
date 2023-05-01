@@ -186,13 +186,17 @@ const config = {
               {
                 html: "KVK 89960629"
               },
-              {
+              /* {
                 label: "ben@samenzoeken.app",
                 to: "mailto:ben@samenzoeken.app"
-              },
+              }, */
               {
                 label: "Privacy Statement",
                 to: "privacy"
+              },
+              {
+                label: "Algemene Voorwaarden",
+                to: "terms"
               }
             ]
           }
