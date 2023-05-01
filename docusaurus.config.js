@@ -150,7 +150,7 @@ const config = {
                 to: '/docs/vrijwilligers',
               },
               {
-                label: 'Doneer',
+                label: 'Donaties',
                 to: '/docs/doneer',
               },
             ],
@@ -181,7 +181,7 @@ const config = {
             ],
           },*/
           {
-            title: "Stichting Samen Zoeken",
+            title: "Stichting Samen Zoeken App",
             items: [
               {
                 html: "KVK 89960629"
