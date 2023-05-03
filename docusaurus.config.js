@@ -75,6 +75,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: 'OFLHG5PSSS',
+        apiKey: 'f01090b0c5a609545f01ccc5f1f91190',
+        indexName: 'samenzoeken',
+        contextualSearch: true,
+        externalUrlRegex: 'external\\.app|samenzoeken\\.app',
+        searchParameters: {},
+        searchPagePath: 'search',
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
