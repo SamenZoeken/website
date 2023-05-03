@@ -93,6 +93,7 @@ const config = {
           {to: '/docs/how', label: 'Hoe werkt het', position: 'left'},
           {to: '/blog', label: 'Nieuws', position: 'left'},
           {to: '/docs/stichting', label: 'Stichting', position: 'left'},
+          {to: 'mailto:ben@samenzoeken.app', label: 'Contact', position: 'left'},
           {to: '/docs/doneer', label: 'Doneer', position: 'right'},
           /*{
             href: `https://github.com/${organizationName}/${projectName}`,
@@ -125,16 +126,16 @@ const config = {
             title: "Nieuws",
             items: [
               {
-                label: 'Samenzoeken Idee',
-                to: '/blog/samenzoeken-app-idee',
+                label: 'Oprichting Stichting',
+                to: '/blog/oprichting-stichting',
               },
               {
                 label: 'Eerste test resultaten',
                 to: '/blog/first-test',
               },
               {
-                label: 'Stichting Opgericht',
-                to: '/blog/oprichting-stichting',
+                label: 'Samenzoeken Idee',
+                to: '/blog/samenzoeken-app-idee',
               },
             ],
           },
@@ -184,12 +185,12 @@ const config = {
             title: "Stichting Samen Zoeken App",
             items: [
               {
-                html: "KVK 89960629"
-              },
-              /* {
                 label: "ben@samenzoeken.app",
                 to: "mailto:ben@samenzoeken.app"
-              }, */
+              },
+              {
+                html: "KVK 89960629"
+              },
               {
                 label: "Privacy Statement",
                 to: "privacy"
