@@ -1,0 +1,39 @@
+---
+slug: stress-test
+title: Stress Test
+authors: [chinib]
+draft: true
+tags: [app, basis, fundament, stresstest, loadtest]
+---
+
+Vandaag hebben we uitvoerige testen gedaan, hoeveel kan de app hebben? 
+
+Natuurlijk afhankelijk van het type toestel, geheugen en processorkracht
+
+## Test 1 
+
+Ongeveer 5Mb aan geojson data met 1000 routes, met 100 coördinaten elk. 
+100 coördinaten is ongeveer een loop/track van 5min.
+oftwel 1000 personen hebben 5min gezocht.
+oftewel 100 personen hebben 50min gezocht. 
+
+De App start snel op, binnen 2s. Waarna de kaart meteen responsive is. 
+Vervolgens is 1-2 seconden dat de app even nadenkt om alle routes/coordinaten op de map te tekenen. 
+Daarna werkt de app weer goed. 
+
+## Test 2
+27Mb 
+7 dagen van 100 personen die 60 min zoeken. 
+7000 routes van 100 coördinaten per track, geconcentreerd rond Eindhoven.
+
+Oftewel 700 000 coordinaten.
+
+Gaat goed, geen crash
+
+## Test 3
+7 dagen
+1000 personen die 60 min zoeken
+
+Nog niet gedaan
+
+
