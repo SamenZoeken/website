@@ -1,5 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+const path = require('path');
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -9,8 +10,8 @@ const projectName = "website";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Samen Zoeken',
-  tagline: 'Binnenkort beschikbaar',
+  title: 'Samen Zoeken App',
+  tagline: 'Hulpmiddel voor burgerparticipatie tijdens een zoekaktie',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -75,6 +76,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      /*announcementBar: {
+        id: 'support_us',
+        content:
+          'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+      },*/
       algolia: {
         appId: 'OFLHG5PSSS',
         apiKey: 'f01090b0c5a609545f01ccc5f1f91190',
@@ -99,11 +108,25 @@ const config = {
             position: 'left',
             label: 'Uitleg',
           },*/
-          {to: '/docs/how', label: 'Hoe werkt het', position: 'left'},
-          {to: '/blog', label: 'Nieuws', position: 'left'},
-          {to: '/docs/stichting', label: 'Stichting', position: 'left'},
-          {to: 'mailto:ben@samenzoeken.app', label: 'Contact', position: 'left'},
-          {to: '/docs/doneer', label: 'Doneer', position: 'right'},
+          { to: '/docs/how', label: 'Hoe werkt het', position: 'left' },
+          { to: '/blog', label: 'Nieuws', position: 'left' },
+          { to: '/docs/stichting', label: 'Stichting', position: 'left' },
+          { to: 'mailto:ben@samenzoeken.app', label: 'Contact', position: 'left' },
+          //{ to: '/docs/doneer', label: 'Doneer', position: 'right' },
+          {
+            type: 'search',
+            position: 'right',
+          },
+          {
+            type: 'html',
+            position: 'right',
+            value: ' <a position="right" class="icon-link navbar__item" href="https://www.facebook.com/people/Stichting-Samen-Zoeken-App/100091958420884/" target="_blank" style="display: flex; padding:0;"><img style="width: 24px; height: 24px;" src="img/logo-facebook.svg" alt="facebook logo"></a>',
+          },
+          {
+            type: 'html',
+            position: 'right',
+            value: ' <a position="right" class="icon-link navbar__item" href="https://www.linkedin.com/company/94150917" target="_blank" style="display: flex; padding:0;"><img style="width: 24px; height: 24px;" src="img/logo-linkedin.svg" alt="LinkedIn logo"></a>',
+          },
           /*{
             href: `https://github.com/${organizationName}/${projectName}`,
             label: 'GitHub',
@@ -154,7 +177,7 @@ const config = {
               {
                 label: 'Missie',
                 to: '/docs/stichting',
-              }, 
+              },
               {
                 label: 'Vrijwilligers',
                 to: '/docs/vrijwilligers',
@@ -165,22 +188,22 @@ const config = {
               },
             ],
           },
-         /* {
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },*/
+          /* {
+             items: [
+               {
+                 label: 'Stack Overflow',
+                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+               },
+               {
+                 label: 'Discord',
+                 href: 'https://discordapp.com/invite/docusaurus',
+               },
+               {
+                 label: 'Twitter',
+                 href: 'https://twitter.com/docusaurus',
+               },
+             ],
+           },*/
           /*{
             items: [
               
