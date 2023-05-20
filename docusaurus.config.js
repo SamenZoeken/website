@@ -158,12 +158,12 @@ const config = {
             title: "Nieuws",
             items: [
               {
-                label: 'Oprichting Stichting',
-                to: '/blog/oprichting-stichting',
+                label: 'Lancering App',
+                to: '/blog/lancering-app',
               },
               {
-                label: 'Eerste test resultaten',
-                to: '/blog/first-test',
+                label: 'Oprichting Stichting',
+                to: '/blog/oprichting-stichting',
               },
               {
                 label: 'Samenzoeken Idee',
