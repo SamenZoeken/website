@@ -32,9 +32,7 @@
   justify-content: center;
 }
 
-.outOfScreen {
-  position: absolute; left: -5000px
-}
+
 
 .pageDescription a {
   color: #08314b;
@@ -44,22 +42,4 @@
 .pageDescription a:hover {
   color: #08314b;
   font-weight: 500;
-}
-
-#mc_embed_signup {
-  clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
-  max-width: 400px;
-}
-
-#mc_embed_signup .button {
-  background-color: #08314b;
-}
-
-#mc_embed_signup form {
-  margin-left: 0 !important;
-}
-
-#mc_embed_signup .mc-field-group input {
-  color: black;
 }

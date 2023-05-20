@@ -6,6 +6,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
+import Newsletter from '../components/Newsletter';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -34,66 +35,7 @@ function HomepageHeader() {
             beschikbaar.
           </p>
           <div>
-            <div id="mc_embed_signup">
-              <form
-                action="https://app.us13.list-manage.com/subscribe/post?u=346fc09adb62d5c844ba952a1&amp;id=0f46ccde90&amp;f_id=0028e6e2f0"
-                method="post"
-                id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form"
-                className="validate"
-                target="_self"
-              >
-                <div id="mc_embed_signup_scroll">
-                  <div className="mc-field-group">
-                    <label htmlFor="mce-EMAIL">E-mailadres </label>
-                    <input
-                      style={{color: 'black'}}
-                      type="email"
-                      name="EMAIL"
-                      className="required email"
-                      id="mce-EMAIL"
-                      required
-                    />
-                    <span id="mce-EMAIL-HELPERTEXT" className="helper_text"></span>
-                  </div>
-                  <div id="mce-responses" className="clear foot">
-                    <div
-                      style={{ display: 'none' }}
-                      className="response"
-                      id="mce-error-response"
-                    ></div>
-                    <div
-                      style={{ display: 'none' }}
-                      className="response"
-                      id="mce-success-response"
-                    ></div>
-                  </div>
-                  <div
-                    className={styles.outOfScreen}
-                    aria-hidden="true"
-                  >
-                    <input
-                      type="text"
-                      name="b_346fc09adb62d5c844ba952a1_0f46ccde90"
-                      tabIndex='-1'
-                      value=""
-                    />
-                  </div>
-                  <div className="optionalParent">
-                    <div className="clear foot">
-                      <br></br>
-                      <input
-                        type="submit"
-                        value="Hou me op de hoogte"
-                        name="subscribe"
-                        id="mc-embedded-subscribe"
-                        className="button button--secondary"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
+           
           </div>
 
        {/* <div className={styles.buttons}>
@@ -117,6 +59,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         {<HomepageFeatures />}
+        {<Newsletter />}
       </main>
     </Layout>
   );
