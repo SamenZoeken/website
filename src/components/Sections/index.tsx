@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 type Section = {
   id?: number;
@@ -30,7 +31,8 @@ const Sections: Section[] = [
     title: 'Op één kaart',
     subTitle: 'samen zoeken',
     imgUrl: 'img/SamenzoekenScreenshot.png',
-
+    btnText: 'Hoe werkt het',
+    btnLink: '/docs/how',
     description: (
       <>
         Na het openen van de app zie je de gemeenschappelijke kaart, met alle routes die al gelopen zijn.
@@ -61,7 +63,7 @@ function Section(props: Section) {
   );
 }
 
-function SectionImage({ imgUrl }) {
+function SectionImage({ imgUrl }: Section) {
   return (
     <div className={clsx('col col-md-8')}>
       <div className="text--center">
@@ -71,13 +73,19 @@ function SectionImage({ imgUrl }) {
   )
 }
 
-function SectionText({ title, subTitle, description }) {
+function SectionText({ title, subTitle, description, btnLink, btnText }: Section) {
   return (
     <div className={clsx('col col-md-4', styles.middle)}>
       <div className="padding-horiz--md">
         <h1>{title}</h1>
         <h2>{subTitle}</h2>
         <p>{description}</p>
+        {(btnText && <Link
+            className="button button--secondary button--lg"
+            to={btnLink}>
+            {btnText}
+          </Link>  
+          )}
       </div>
     </div>
   )
