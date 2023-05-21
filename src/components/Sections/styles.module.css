@@ -1,15 +1,15 @@
 .section {
   border-bottom: rgb(222, 227, 234) 1px solid;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.Sections h1 {
+.sectionH1 {
   color: #66BF8A;
   font-weight: bold;
   margin-bottom: 0;
 }
-.Sections img {
+.sectionImage {
   max-height: 500px;
 }
 .middle {

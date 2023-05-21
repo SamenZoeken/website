@@ -16,15 +16,29 @@ type Section = {
 
 const Sections: Section[] = [
   {
-    title: 'Stichting',
+    title: 'Oorsprong',
     subTitle: 'Samen Zoeken App',
-    imgUrl: 'img/SamenzoekenScreenshotMaps.png',
-    btnText: 'Missie',
-    btnLink: '/docs/stichting#missie-zoekactie-versnellen',
+    imgUrl: 'img/emilietta_250px.jpg',
+    btnText: 'Lees het verhaal',
+    btnLink: '/blog/samenzoeken-app-idee',
     description: (
       <>
-        Professionele stafkaarten, die instanties ook gebruiken, die normaal niet gratis te verkrijgen is.
-      </>
+        <p>
+          Na de verdwijning van
+          <a
+            href="https://www.vrt.be/vrtnws/nl/2023/02/28/lichaam-gevonden/"
+            target="_blank"
+          > Emilietta Chini </a> in 2023
+          lijdend aan dementie, ging haar familie massaal naar haar op zoek,
+          geholpen door honderden vrijwilligers.
+        </p>
+        <p >
+          Al snel werd duidelijk dat het erg moeilijk is om met zo een grote
+          groep gecoördineerd te zoeken. Wie is waar al gaan kijken? Hoe
+          grondig is er al gezocht, en in welk gebied?</p>
+        <p>
+          "Ik heb lang gezocht, maar zo een app bestond niet. 
+          Dus ben ik 'm zelf gaan ontwikkelen," zegt neef Ben Chini.</p>      </>
     )
   },
   {
@@ -77,9 +91,9 @@ function Section(props: Section) {
 
 function SectionImage({ imgUrl }: Section) {
   return (
-    <div className={clsx('col col-md-8')}>
+    <div className={clsx('col col-md-8', styles.middle)}>
       <div className="text--center">
-        <img src={imgUrl} />
+        <img src={imgUrl} className={styles.sectionImage} />
       </div>
     </div>
   )
@@ -89,15 +103,15 @@ function SectionText({ title, subTitle, description, btnLink, btnText }: Section
   return (
     <div className={clsx('col col-md-4', styles.middle)}>
       <div className="padding-horiz--md">
-        <h1>{title}</h1>
+        <h1 className={styles.sectionH1}>{title}</h1>
         <h2>{subTitle}</h2>
         <p>{description}</p>
         {(btnText && <Link
-            className="button button--secondary button--lg"
-            to={btnLink}>
-            {btnText}
-          </Link>  
-          )}
+          className="button button--secondary button--lg"
+          to={btnLink}>
+          {btnText}
+        </Link>
+        )}
       </div>
     </div>
   )
