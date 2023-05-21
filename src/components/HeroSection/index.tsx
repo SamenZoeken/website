@@ -8,10 +8,10 @@ function HeroSection() {
   return (
     <section className="hero heroBanner">
       <div className="container">
-        <div className="hero-content">
-          <div className="hero-left">
+        <div className='row'>
+          <div className="col col-md-8 hero-left">
             <h1>{siteConfig.title}</h1>
-            {/*<p>{siteConfig.tagline}</p>*/}
+            {/*<p>{siteConfig.tagline}</p>
             <p className="pageDescription">
               Na de verdwijning van
               <a
@@ -25,10 +25,16 @@ function HeroSection() {
               Al snel werd duidelijk dat het erg moeilijk is om met zo een grote
               groep gecoördineerd te zoeken. Wie is waar al gaan kijken? Hoe
               grondig is er al gezocht, en in welk gebied?
-            </p>
+            </p>*/}
             <p className="pageDescription">
-              De Samen Zoeken App geeft toegang tot professionele stafkaarten waarop zichtbaar is waar er al gezocht is.
+              De Samen Zoeken App geeft toegang tot professionele stafkaarten waarop zichtbaar is waar er al is gezocht.
+              <ul>
+              <li>&nbsp; Gratis</li>
+              <li>&nbsp; Anoniem</li>
+              <li>&nbsp; Zonder winstoogmerk</li>
+            </ul>
             </p>
+         
             <div>
 
               <div className="buttons">
@@ -37,7 +43,7 @@ function HeroSection() {
               </div>
             </div>
           </div>
-          <div className="hero-right">
+          <div className="hero-right col col-md-4">
             <img src="img/SamenzoekenScreenshot.png" className="HeroImage" alt="Samen Zoeken Screenshot" />
           </div>
         </div>
