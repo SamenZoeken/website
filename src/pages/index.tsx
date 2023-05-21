@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 import Newsletter from '../components/Newsletter';
 import HeroSection from '../components/HeroSection';
+import HomePageSections from '../components/Sections';
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -15,7 +16,7 @@ export default function Home(): JSX.Element {
       description="Hulpmiddel voor burgerparticipatie tijdens een zoekaktie">
       <HeroSection />
       <main>
-        {<HomepageFeatures />}
+        {<HomePageSections />}
         {<Newsletter />}
       </main>
     </Layout>

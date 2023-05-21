@@ -1,0 +1,18 @@
+.section {
+  border-bottom: rgb(222, 227, 234) 1px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #66BF8A;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+img {
+  max-height: 500px;
+}
+.middle {
+  margin: auto 0;
+  display: inline-block;
+}
