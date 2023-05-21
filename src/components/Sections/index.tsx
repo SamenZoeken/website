@@ -8,6 +8,7 @@ type Section = {
   title: string;
   subTitle: string;
   imgUrl: string;
+  imgClass?: string;
   btnText?: string;
   btnLink?: string;
   //Svg: React.ComponentType<React.ComponentProps<'svg'>>;
@@ -19,7 +20,7 @@ const Sections: Section[] = [
     title: 'Oorsprong',
     subTitle: 'Samen Zoeken App',
     imgUrl: 'img/emilietta_250px.jpg',
-    btnText: 'Lees het verhaal',
+    btnText: 'Lees ons verhaal',
     btnLink: '/blog/samenzoeken-app-idee',
     description: (
       <>
@@ -64,12 +65,26 @@ const Sections: Section[] = [
         Na het openen van de app zie je de gemeenschappelijke kaart, met alle routes die al gelopen zijn.
       </>
     )
+  },{
+    title: 'Stichting',
+    subTitle: 'Samen Zoeken App',
+    imgUrl: 'img/favicon-samenzoeken.png',
+    imgClass: 'imgStichtingLogo',
+    btnText: 'Onze Missie',
+    btnLink: '/docs/stichting',
+    description: (
+      <>
+        <p>Zoveel mogelijk mensen die willen helpen moeten ook kunnen helpen zoeken, zonder drempel of betalingen. </p>
+        
+        <p>Daarom kiezen we ervoor om de app gratis aan te bieden, zonder betaalmodel.</p>
+      </>
+    )
   }
 ];
 
 function Section(props: Section) {
   return (
-    <section className={clsx('Section', styles.section)}>
+    <section className={clsx('Section', styles.section, (props.id % 2 != 0) && styles.sectionEven)}>
       <div className={clsx('container')}>
         <div className={clsx('row')}>
           {(props.id % 2 == 0) ?
@@ -89,11 +104,11 @@ function Section(props: Section) {
   );
 }
 
-function SectionImage({ imgUrl }: Section) {
+function SectionImage({ imgUrl, imgClass }: Section) {
   return (
     <div className={clsx('col col-md-8', styles.middle)}>
       <div className="text--center">
-        <img src={imgUrl} className={styles.sectionImage} />
+        <img src={imgUrl} className={clsx(styles.sectionImage, imgClass && styles[imgClass])} />
       </div>
     </div>
   )
@@ -107,7 +122,7 @@ function SectionText({ title, subTitle, description, btnLink, btnText }: Section
         <h2>{subTitle}</h2>
         <p>{description}</p>
         {(btnText && <Link
-          className="button button--secondary button--lg"
+          className="button button--primary button--lg"
           to={btnLink}>
           {btnText}
         </Link>

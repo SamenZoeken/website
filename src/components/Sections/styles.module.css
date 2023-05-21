@@ -3,6 +3,9 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.sectionEven {
+  background-color: #e0f2e8;
+}
 
 .sectionH1 {
   color: #66BF8A;
@@ -15,4 +18,8 @@
 .middle {
   margin: auto 0;
   display: inline-block;
+}
+.imgStichtingLogo {
+  border-radius: 60px;
+  height: 350px;
 }
