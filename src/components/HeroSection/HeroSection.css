@@ -1,0 +1,68 @@
+hero {
+  /*background-color: #f2f2f2;
+  padding: 40px;*/
+  color: white;
+}
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  background-image: url('/img/Samenzoeken_landingspagina_background-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-right {
+  flex: 1;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.buttons {
+  margin-top: 16px;
+}
+
+img.HeroImage {
+  height: 70vh;
+}
+
+.buttons a {
+  margin-right: 12px;
+  padding: 12px 24px;  
+}
+
+a.button-ios {
+  display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 90px;
+}
+a.button-ios img {
+  border-radius: 13px; width: 250px; height: 83px;
+}
+
+.button-android {
+  background-color: #4cd964;
+}
+
+h1, .pageDescription {
+  color: white;
+}

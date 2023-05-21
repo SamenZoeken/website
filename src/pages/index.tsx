@@ -7,6 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 import Newsletter from '../components/Newsletter';
+import HeroSection from '../components/HeroSection';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -62,7 +63,7 @@ export default function Home(): JSX.Element {
     <Layout
       title={`${siteConfig.title}`}
       description="Hulpmiddel voor burgerparticipatie tijdens een zoekaktie">
-      <HomepageHeader />
+      <HeroSection />
       <main>
         {<HomepageFeatures />}
         {<Newsletter />}
