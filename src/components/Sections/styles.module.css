@@ -4,12 +4,12 @@
   margin-bottom: 20px;
 }
 
-h1 {
+.Sections h1 {
   color: #66BF8A;
   font-weight: bold;
   margin-bottom: 0;
 }
-img {
+.Sections img {
   max-height: 500px;
 }
 .middle {

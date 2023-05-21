@@ -16,6 +16,18 @@ type Section = {
 
 const Sections: Section[] = [
   {
+    title: 'Stichting',
+    subTitle: 'Samen Zoeken App',
+    imgUrl: 'img/SamenzoekenScreenshotMaps.png',
+    btnText: 'Missie',
+    btnLink: '/docs/stichting#missie-zoekactie-versnellen',
+    description: (
+      <>
+        Professionele stafkaarten, die instanties ook gebruiken, die normaal niet gratis te verkrijgen is.
+      </>
+    )
+  },
+  {
     title: 'Professionele',
     subTitle: 'stafkaarten',
     imgUrl: 'img/SamenzoekenScreenshotMaps.png',
@@ -93,7 +105,7 @@ function SectionText({ title, subTitle, description, btnLink, btnText }: Section
 
 export default function HomePageSections(): JSX.Element {
   return (
-    <div>
+    <div className={clsx('Sections')}>
       {Sections.map((props, idx) => (
         props.id = idx,
         <Section key={idx} {...props} />
