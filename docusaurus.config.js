@@ -120,12 +120,12 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: ' <a position="right" class="icon-link navbar__item" href="https://www.facebook.com/people/Stichting-Samen-Zoeken-App/100091958420884/" target="_blank" style="display: flex; padding:0;"><img style="width: 24px; height: 24px;" src="img/logo-facebook.svg" alt="facebook logo"></a>',
+            value: ' <a position="right" class="icon-link navbar__item" href="https://www.facebook.com/people/Stichting-Samen-Zoeken-App/100091958420884/" target="_blank" style="display: flex; padding:0;"><img style="width: 24px; height: 24px;" src="/img/logo-facebook.svg" alt="facebook logo"></a>',
           },
           {
             type: 'html',
             position: 'right',
-            value: ' <a position="right" class="icon-link navbar__item" href="https://www.linkedin.com/company/94150917" target="_blank" style="display: flex; padding:0;"><img style="width: 24px; height: 24px;" src="img/logo-linkedin.svg" alt="LinkedIn logo"></a>',
+            value: ' <a position="right" class="icon-link navbar__item" href="https://www.linkedin.com/company/94150917" target="_blank" style="display: flex; padding:0;"><img style="width: 24px; height: 24px;" src="/img/logo-linkedin.svg" alt="LinkedIn logo"></a>',
           },
           /*{
             href: `https://github.com/${organizationName}/${projectName}`,
