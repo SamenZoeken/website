@@ -46,11 +46,11 @@ const Sections: Section[] = [
     title: 'Professionele',
     subTitle: 'stafkaarten',
     imgUrl: 'img/SamenzoekenScreenshotMaps.png',
-    btnText: 'Kaarten',
+    btnText: 'Ontdek de Kaarten',
     btnLink: '/docs/maps',
     description: (
       <>
-        Professionele stafkaarten, die instanties ook gebruiken, die normaal niet gratis te verkrijgen is.
+        Professionele officiële stafkaarten, deze kaarten zijn als bron erkend door de overheid en worden meerdere malen per jaar geactualiseerd.
       </>
     )
   },

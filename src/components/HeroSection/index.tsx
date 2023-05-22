@@ -30,8 +30,8 @@ function HeroSection() {
               De Samen Zoeken App geeft toegang tot professionele stafkaarten waarop zichtbaar is waar er al is gezocht.
               <ul>
               <li>&nbsp; Gratis</li>
+              <li>&nbsp; Intuïtief</li>
               <li>&nbsp; Anoniem</li>
-              <li>&nbsp; Zonder winstoogmerk</li>
             </ul>
             </p>
          
