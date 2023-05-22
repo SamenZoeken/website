@@ -42,7 +42,7 @@ export default function Newsletter(): JSX.Element {
                         value="Inschrijven"
                         name="subscribe"
                         id="mc-embedded-subscribe"
-                        className="button button--secondary"
+                        className="button button--primary"
                       />
                       <span id="mce-EMAIL-HELPERTEXT" className="helper_text"></span>
                     </div>

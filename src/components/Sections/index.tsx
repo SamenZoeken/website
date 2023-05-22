@@ -38,7 +38,7 @@ const Sections: Section[] = [
           groep gecoördineerd te zoeken. Wie is waar al gaan kijken? Hoe
           grondig is er al gezocht, en in welk gebied?</p>
         <p>
-          "Ik heb lang gezocht, maar zo een app bestond niet. 
+          "Ik heb lang gezocht, maar zo een app bestond niet.
           Dus ben ik 'm zelf gaan ontwikkelen," zegt neef Ben Chini.</p>      </>
     )
   },
@@ -62,10 +62,11 @@ const Sections: Section[] = [
     btnLink: '/docs/how',
     description: (
       <>
-        Na het openen van de app zie je de gemeenschappelijke kaart, met alle routes die al gelopen zijn.
+        <p>Je ziet de gelopen route van iedereen met de Samen Zoeken App, waardoor er zichtbaar is waar er al gezocht is.</p>
+        <p>Dit minimaliseert overlap van zoekgebieden en verhoogt de effectiviteit van zoekakties.</p>
       </>
     )
-  },{
+  }, {
     title: 'Stichting',
     subTitle: 'Samen Zoeken App',
     imgUrl: 'img/favicon-samenzoeken.png',
@@ -75,8 +76,8 @@ const Sections: Section[] = [
     description: (
       <>
         <p>Zoveel mogelijk mensen die willen helpen moeten ook kunnen helpen zoeken, zonder drempel of betalingen. </p>
-        
-        <p>Daarom kiezen we ervoor om de app gratis aan te bieden, zonder betaalmodel.</p>
+
+        <p>Daarom is de Stichting Samen Zoeken App geboren die de app gratis aanbiedt, zonder winstoogmerk.</p>
       </>
     )
   }

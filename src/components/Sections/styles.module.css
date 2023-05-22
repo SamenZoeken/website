@@ -4,7 +4,8 @@
   padding-bottom: 30px;
 }
 .sectionEven {
-  background-color: #e0f2e8;
+  background: rgb(224,242,232);
+  background: linear-gradient(32deg, rgba(224,242,232,1) 33%, rgba(240,249,243,1) 100%);
 }
 
 .sectionH1 {
