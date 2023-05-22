@@ -234,7 +234,7 @@ const config = {
             ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Samen Zoeken.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Stichting Samen Zoeken App.`,
       },
       prism: {
         theme: lightCodeTheme,
