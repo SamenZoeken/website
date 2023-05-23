@@ -11,7 +11,7 @@ const projectName = "website";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Samen Zoeken App',
-  tagline: 'Hulpmiddel voor burgerparticipatie tijdens een zoekaktie',
+  tagline: 'Hulpmiddel voor burgerparticipatie tijdens een zoekactie',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

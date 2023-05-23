@@ -13,7 +13,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Hulpmiddel voor burgerparticipatie tijdens een zoekaktie">
+      description="Hulpmiddel voor burgerparticipatie tijdens een zoekactie">
       <HeroSection />
       <main>
         {<HomePageSections />}

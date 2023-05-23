@@ -63,7 +63,7 @@ const Sections: Section[] = [
     description: (
       <>
         <p>Je ziet de gelopen route van iedereen met de Samen Zoeken App, waardoor er zichtbaar is waar er al gezocht is.</p>
-        <p>Dit minimaliseert overlap van zoekgebieden en verhoogt de effectiviteit van zoekakties.</p>
+        <p>Dit minimaliseert overlap van zoekgebieden en verhoogt de effectiviteit van zoekacties.</p>
       </>
     )
   }, {
