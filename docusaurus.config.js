@@ -93,8 +93,12 @@ const config = {
         searchParameters: {},
         searchPagePath: 'search',
       },
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'https://samenzoeken.app/img/SamenzoekenSocial.png',
+      metadata: [
+        {name: 'author', content: 'Kn-app'},
+        {name: 'description', content: 'Tijdens een zoekactie naar een vermist persoon is het vaak onduidelijk voor familie, vrienden en/of andere vrijwilligers op welke plekken er al gezocht is en hoe grondig. De Samen Zoeken App wil hier verandering in brengen zodat er gestructureerd en grondig gezocht kan worden met behulp van één gezamelijke kaart. De App is gratis, anoniem en intuïtief en wordt zonder winst-oogmerk aangeboden door de Stichting Samen Zoeken App, met als doel zoekacties te versnellen.'},
+        {name: 'keywords', content: 'zoekactie, vermissing, vermiste, samenzoeken, samen zoeken, app, dementie, mantrailing, gps tracking'},
+      ],
       navbar: {
         title: 'Samen Zoeken',
         logo: {
