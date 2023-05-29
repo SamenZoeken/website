@@ -44,7 +44,7 @@ function HeroSection() {
             </div>
           </div>
           <div className="hero-right col col-md-4">
-            <img src="img/SamenzoekenScreenshot.png" className="HeroImage" alt="Samen Zoeken Screenshot" />
+            <img src="img/SamenzoekenScreenshot.webp" className="HeroImage" alt="Samen Zoeken Screenshot" />
           </div>
         </div>
       </div>

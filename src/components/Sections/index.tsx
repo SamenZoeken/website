@@ -8,6 +8,7 @@ type Section = {
   title: string;
   subTitle: string;
   imgUrl: string;
+  imgAlt: string;
   imgClass?: string;
   btnText?: string;
   btnLink?: string;
@@ -20,6 +21,7 @@ const Sections: Section[] = [
     title: 'Oorsprong',
     subTitle: 'Samen Zoeken App',
     imgUrl: 'img/emilietta_250px.jpg',
+    imgAlt: 'Vermissing Emilietta Chini',
     btnText: 'Lees ons verhaal',
     btnLink: '/blog/samenzoeken-app-idee',
     description: (
@@ -46,6 +48,7 @@ const Sections: Section[] = [
     title: 'Professionele',
     subTitle: 'stafkaarten',
     imgUrl: 'img/SamenzoekenScreenshotMaps.png',
+    imgAlt: 'Screenshot Samen Zoeken App professionele stafkaarten',
     btnText: 'Ontdek de Kaarten',
     btnLink: '/docs/maps',
     description: (
@@ -57,7 +60,8 @@ const Sections: Section[] = [
   {
     title: 'Op één kaart',
     subTitle: 'samen zoeken',
-    imgUrl: 'img/SamenzoekenScreenshot.png',
+    imgUrl: 'img/SamenzoekenScreenshot.webp',
+    imgAlt: 'Screenshot Samenzoeken op één kaart samen zoeken',
     btnText: 'Hoe werkt het',
     btnLink: '/docs/how',
     description: (
@@ -70,6 +74,7 @@ const Sections: Section[] = [
     title: 'Stichting',
     subTitle: 'Samen Zoeken App',
     imgUrl: 'img/favicon-samenzoeken.png',
+    imgAlt: 'Stichting Samen Zoeken App Logo',
     imgClass: 'imgStichtingLogo',
     btnText: 'Onze Missie',
     btnLink: '/docs/stichting',
