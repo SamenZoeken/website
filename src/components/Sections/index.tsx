@@ -80,7 +80,7 @@ const Sections: Section[] = [
     btnLink: '/docs/stichting',
     description: (
       <>
-        <p>Zoveel mogelijk mensen die willen helpen moeten ook kunnen helpen zoeken, zonder drempel of betalingen. </p>
+        <p>Zoveel mogelijk mensen die willen helpen moeten ook kunnen helpen zoeken, zonder drempel, reclame of betalingen. </p>
 
         <p>Daarom is de Stichting Samen Zoeken App geboren die de app gratis aanbiedt, zonder winstoogmerk.</p>
       </>

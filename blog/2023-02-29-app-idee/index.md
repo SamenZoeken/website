@@ -9,7 +9,7 @@ tags: [app idee, frustratie]
 Ben. &quot;Maar zij zeiden dat ik niet onmiddellijk iets kon doen, en ze suggereerden vooral dat ik
 hun niet voor de voeten moest lopen.&quot;
 
-Toen Emilietta, die leed aan dementie, op woensdagavond 22 februari verdween aan haar
+Toen Emilietta, die leed aan dementie, op woensdagavond 22 februari 2023 verdween aan haar
 woning in Maasmechelen zette de lokale en federale politie, alsook de Cel Vermiste Personen, onmiddellijk een
 grote zoekactie op. 
 
