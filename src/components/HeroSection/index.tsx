@@ -27,14 +27,14 @@ function HeroSection() {
               grondig is er al gezocht, en in welk gebied?
             </p>*/}
             <p className="pageDescription">
-              De Samen Zoeken App geeft toegang tot professionele stafkaarten waarop zichtbaar is waar er al is gezocht.
+              De Samen Zoeken App maakt professionele tools toegankelijk voor vrijwilligers die meehelpen bij een vermissing om zoekakties te versnellen.
               <ul>
-              <li>&nbsp; Gratis</li>
-              <li>&nbsp; Intuïtief</li>
-              <li>&nbsp; Anoniem</li>
-            </ul>
+                <li>&nbsp; Gratis</li>
+                <li>&nbsp; Intuïtief</li>
+                <li>&nbsp; Anoniem</li>
+              </ul>
             </p>
-         
+
             <div>
 
               <div className="buttons">
